@@ -7,9 +7,21 @@
     Shell.FlyoutBehavior="Disabled"
     Title="OlallaJessicaExamenP2">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Recarga" Icon="dotnet_bot.png">
+            <ShellContent
+            Title="Recarga"
+            ContentTemplate="{DataTemplate local:Recarga}"
+            Route="Recarga" />
+        </Tab>
+
+        <Tab Title="Grid" Icon="dotnet_bot.png">
+            <ShellContent
+            Title="Grid"
+            ContentTemplate="{DataTemplate local:Grid}"
+            Route="Grid" />
+        </Tab>
+
+    </TabBar>
 
 </Shell>
