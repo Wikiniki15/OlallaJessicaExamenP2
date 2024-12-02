@@ -6,17 +6,13 @@ namespace OlallaJessicaExamenP2;
 
 public partial class Recarga : ContentPage
 {
-    IRecargaRepository _recargaRepository;
-    Recarga recarga = new Recarga();
+   /* IRecargaRepository _recargaRepository;
+    Recarga recarga = new Recarga();*/
     public Recarga()
 	{
-        _recargaRepository = new RecargaRepository();
         InitializeComponent();
-
-        recarga = _recargaRepository.DevuelveEstudianteUDLA();
-        BindingContext = recarga;
     }
-
+    /*
     private async void RecargaClicked(object sender, EventArgs e)
     {
         Recarga estudiante = new Recarga
@@ -36,5 +32,5 @@ public partial class Recarga : ContentPage
             await DisplayAlert("Alert", "Negado mi pana", "OK");
         }
     }
-    
+    */
 }

@@ -21,10 +21,12 @@
             HeightRequest="100" />
 
         <Label Text="JO, La ultima recarga realizada fue:" />
-        
+
         <Button
          x:Name="JORecarga"
-         Text="Recargar"
-         Clicked="RecargaClicked"/>
+         Text="Recargar">
+            
+        </Button>
+         <!--Clicked="RecargaClicked"/>-->
     </StackLayout>
 </ContentPage>
