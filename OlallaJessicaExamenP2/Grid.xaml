@@ -18,8 +18,8 @@
 
         <Label Text="Jessica" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" />
         <Label Text="Nicole" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <Label Text="Olalla" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <Label Text="Inca" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Olalla" Grid.Row="1" Grid.Column="0" Style="{StaticResource JOApellido}"/>
+        <Label Text="Inca" Grid.Row="1" Grid.Column="1" Style="{StaticResource JOApellido}"/>
 
     </Grid>
 </ContentPage>

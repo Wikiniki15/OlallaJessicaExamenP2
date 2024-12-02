@@ -424,4 +424,10 @@
         <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
     </Style>
 
+    <Style x:Key="JOApellido" TargetType="Label">
+        <Setter Property="TextColor" Value="Red"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
 </ResourceDictionary>
