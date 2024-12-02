@@ -5,23 +5,26 @@
              Title="Recarga">
 
     <StackLayout Margin="20" Spacing="6">
+        
         <Label Text="Ingrese el numero de telefono:" />
+        
         <Editor x:Name="TextEditorJO"
         Placeholder="Numero de telefono:"
-        Text="{Binding Text}"
+        Text="{Binding Numero}"
         HeightRequest="100" />
 
         <Label Text="Ingrese el nombre de quien realiza la recarga:" />
+        
         <Editor x:Name="TextEditor2JO"
-            Placeholder="Nnombre de quien realiza la recarga:"
-            Text="{Binding Text}"
+            Placeholder="Nombre de quien realiza la recarga:"
+            Text="{Binding Nombre}"
             HeightRequest="100" />
 
         <Label Text="JO, La ultima recarga realizada fue:" />
         
         <Button
          x:Name="JORecarga"
-         Text="Recargar" />
-        <!--Clicked="RecargaClicked"/-->
+         Text="Recargar"
+         Clicked="RecargaClicked"/>
     </StackLayout>
 </ContentPage>
