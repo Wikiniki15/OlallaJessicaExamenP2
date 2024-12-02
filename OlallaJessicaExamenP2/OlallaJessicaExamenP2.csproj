@@ -58,7 +58,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\grid.png" />
-	  <None Remove="Resources\Images\saldo.png" />
+	  <None Remove="Resources\Images\recarga.png" />
 	</ItemGroup>
 
 	<ItemGroup>

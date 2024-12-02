@@ -8,14 +8,14 @@
     Title="OlallaJessicaExamenP2">
 
     <TabBar>
-        <Tab Title="Recarga" Icon="dotnet_bot.png">
+        <Tab Title="Recarga" Icon="recarga.png">
             <ShellContent
             Title="Recarga"
             ContentTemplate="{DataTemplate local:Recarga}"
             Route="Recarga" />
         </Tab>
 
-        <Tab Title="Grid" Icon="dotnet_bot.png">
+        <Tab Title="Grid" Icon="grid.png">
             <ShellContent
             Title="Grid"
             ContentTemplate="{DataTemplate local:Grid}"
